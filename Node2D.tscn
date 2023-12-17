@@ -1,0 +1,1184 @@
+[gd_scene load_steps=237 format=2]
+
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownBase_E.png" type="Texture" id=1]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_E.png" type="Texture" id=2]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_S.png" type="Texture" id=3]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeTop_S.png" type="Texture" id=4]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownBase_N.png" type="Texture" id=5]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownBase_S.png" type="Texture" id=6]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_N.png" type="Texture" id=7]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownBase_W.png" type="Texture" id=8]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeTop_E.png" type="Texture" id=9]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeTop_N.png" type="Texture" id=10]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeTop_W.png" type="Texture" id=11]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_wood_E.png" type="Texture" id=12]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCornerBeige_W.png" type="Texture" id=13]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_stone_N.png" type="Texture" id=14]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stack_E.png" type="Texture" id=15]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_stone_W.png" type="Texture" id=16]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_stone_E.png" type="Texture" id=17]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_wood_W.png" type="Texture" id=18]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackBeige_S.png" type="Texture" id=19]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCornerBeige_N.png" type="Texture" id=20]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRound_S.png" type="Texture" id=21]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackBeige_W.png" type="Texture" id=22]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackBeige_E.png" type="Texture" id=23]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stack_N.png" type="Texture" id=24]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_wood_S.png" type="Texture" id=25]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCorner_W.png" type="Texture" id=26]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRound_E.png" type="Texture" id=27]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRound_N.png" type="Texture" id=28]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_stone_S.png" type="Texture" id=29]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCornerBeige_S.png" type="Texture" id=30]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCorner_E.png" type="Texture" id=31]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/balcony_wood_N.png" type="Texture" id=32]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCorner_S.png" type="Texture" id=33]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCornerBeige_E.png" type="Texture" id=34]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackBeige_N.png" type="Texture" id=35]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stackCorner_N.png" type="Texture" id=36]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stack_S.png" type="Texture" id=37]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/building_stack_W.png" type="Texture" id=38]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRuined_S.png" type="Texture" id=39]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_end_N.png" type="Texture" id=40]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeBase_E.png" type="Texture" id=41]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeBase_N.png" type="Texture" id=42]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeBase_S.png" type="Texture" id=43]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_end_W.png" type="Texture" id=44]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRuined_E.png" type="Texture" id=45]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBeigeBase_W.png" type="Texture" id=46]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRound_W.png" type="Texture" id=47]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRuined_N.png" type="Texture" id=48]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_endRuined_W.png" type="Texture" id=49]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_end_S.png" type="Texture" id=50]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_end_E.png" type="Texture" id=51]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_top_S.png" type="Texture" id=52]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCurve_N.png" type="Texture" id=53]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCurve_S.png" type="Texture" id=54]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerCenter_E.png" type="Texture" id=55]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenTop_W.png" type="Texture" id=56]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_S.png" type="Texture" id=57]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleBase_S.png" type="Texture" id=58]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_E.png" type="Texture" id=59]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_cornerInner_N.png" type="Texture" id=60]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_E.png" type="Texture" id=61]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_entrance_S.png" type="Texture" id=62]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_S.png" type="Texture" id=63]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleBase_E.png" type="Texture" id=64]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCornerInner_E.png" type="Texture" id=65]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_corner_E.png" type="Texture" id=66]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleTop_W.png" type="Texture" id=67]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCornerInner_N.png" type="Texture" id=68]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_cornerInner_S.png" type="Texture" id=69]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_entrance_N.png" type="Texture" id=70]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCorner_E.png" type="Texture" id=71]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_entrance_E.png" type="Texture" id=72]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_entrance_W.png" type="Texture" id=73]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCorner_N.png" type="Texture" id=74]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topEntrance_N.png" type="Texture" id=75]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenTop_N.png" type="Texture" id=76]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleTop_S.png" type="Texture" id=77]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleBase_W.png" type="Texture" id=78]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerCenter_W.png" type="Texture" id=79]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_corner_N.png" type="Texture" id=80]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCornerInner_S.png" type="Texture" id=81]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topEntrance_S.png" type="Texture" id=82]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_top_E.png" type="Texture" id=83]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_N.png" type="Texture" id=84]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_top_W.png" type="Texture" id=85]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_W.png" type="Texture" id=86]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_corner_S.png" type="Texture" id=87]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_cornerInner_E.png" type="Texture" id=88]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleBase_N.png" type="Texture" id=89]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCornerInner_W.png" type="Texture" id=90]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/dirt_corner_E.png" type="Texture" id=91]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_corner_W.png" type="Texture" id=92]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/dirt_corner_N.png" type="Texture" id=93]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/dirt_corner_S.png" type="Texture" id=94]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_top_N.png" type="Texture" id=95]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_N.png" type="Texture" id=96]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenTop_E.png" type="Texture" id=97]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenBase_W.png" type="Texture" id=98]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerGreenTop_S.png" type="Texture" id=99]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCorner_S.png" type="Texture" id=100]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/dirt_corner_W.png" type="Texture" id=101]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerCenter_N.png" type="Texture" id=102]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleTop_E.png" type="Texture" id=103]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCorner_N.png" type="Texture" id=104]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topCorner_W.png" type="Texture" id=105]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topEntrance_E.png" type="Texture" id=106]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCorner_S.png" type="Texture" id=107]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerPurpleTop_N.png" type="Texture" id=108]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCorner_W.png" type="Texture" id=109]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCorner_E.png" type="Texture" id=110]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerBrownTop_W.png" type="Texture" id=111]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCurve_E.png" type="Texture" id=112]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/castle_towerCenter_S.png" type="Texture" id=113]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_cornerInner_W.png" type="Texture" id=114]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/cliff_topEntrance_W.png" type="Texture" id=115]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDouble_N.png" type="Texture" id=116]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerPurple_E.png" type="Texture" id=117]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/grass_block_E.png" type="Texture" id=118]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_crop_W.png" type="Texture" id=119]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBrown_E.png" type="Texture" id=120]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBrown_N.png" type="Texture" id=121]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerGreen_S.png" type="Texture" id=122]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_wood_S.png" type="Texture" id=123]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerPurple_N.png" type="Texture" id=124]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBeige_E.png" type="Texture" id=125]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCorner_S.png" type="Texture" id=126]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodEnd_N.png" type="Texture" id=127]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_wood_W.png" type="Texture" id=128]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_crop_E.png" type="Texture" id=129]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCorner_W.png" type="Texture" id=130]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_S.png" type="Texture" id=131]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_W.png" type="Texture" id=132]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_cropWheat_E.png" type="Texture" id=133]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_cropWheat_W.png" type="Texture" id=134]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_N.png" type="Texture" id=135]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBeige_E.png" type="Texture" id=136]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerPurple_S.png" type="Texture" id=137]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleEnd_W.png" type="Texture" id=138]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_cropWheat_S.png" type="Texture" id=139]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_crop_S.png" type="Texture" id=140]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_end_E.png" type="Texture" id=141]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/grass_block_S.png" type="Texture" id=142]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodEnd_S.png" type="Texture" id=143]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDouble_S.png" type="Texture" id=144]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCurve_E.png" type="Texture" id=145]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/grass_block_N.png" type="Texture" id=146]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBeige_W.png" type="Texture" id=147]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_end_N.png" type="Texture" id=148]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_crop_N.png" type="Texture" id=149]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerGreen_W.png" type="Texture" id=150]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerPurple_W.png" type="Texture" id=151]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBeige_N.png" type="Texture" id=152]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBeige_S.png" type="Texture" id=153]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCorner_E.png" type="Texture" id=154]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCurve_S.png" type="Texture" id=155]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCurve_W.png" type="Texture" id=156]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleEnd_N.png" type="Texture" id=157]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodCurve_W.png" type="Texture" id=158]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodEnd_W.png" type="Texture" id=159]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_end_W.png" type="Texture" id=160]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerGreen_N.png" type="Texture" id=161]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBrown_S.png" type="Texture" id=162]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleEnd_S.png" type="Texture" id=163]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_cropWheat_N.png" type="Texture" id=164]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBeige_S.png" type="Texture" id=165]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_end_S.png" type="Texture" id=166]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDouble_W.png" type="Texture" id=167]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodEnd_E.png" type="Texture" id=168]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleEnd_E.png" type="Texture" id=169]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_wood_E.png" type="Texture" id=170]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_wood_N.png" type="Texture" id=171]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/grass_block_W.png" type="Texture" id=172]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDouble_E.png" type="Texture" id=173]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCurve_N.png" type="Texture" id=174]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerGreen_E.png" type="Texture" id=175]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/furrow_E.png" type="Texture" id=176]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBeige_N.png" type="Texture" id=177]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_gableCornerBrown_W.png" type="Texture" id=178]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/fence_woodDoubleCorner_N.png" type="Texture" id=179]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBrown_W.png" type="Texture" id=180]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerGreen_N.png" type="Texture" id=181]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerGreen_W.png" type="Texture" id=182]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerGreen_E.png" type="Texture" id=183]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerPurple_E.png" type="Texture" id=184]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerPurple_S.png" type="Texture" id=185]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerPurple_W.png" type="Texture" id=186]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerPurple_N.png" type="Texture" id=187]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerGreen_S.png" type="Texture" id=188]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBeige_W.png" type="Texture" id=189]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBrown_E.png" type="Texture" id=190]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBrown_S.png" type="Texture" id=191]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_roundCornerBrown_N.png" type="Texture" id=192]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pineLarge_E.png" type="Texture" id=193]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBeige_E.png" type="Texture" id=194]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerGreen_N.png" type="Texture" id=195]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerGreen_S.png" type="Texture" id=196]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pine_W.png" type="Texture" id=197]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/well_S.png" type="Texture" id=198]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerPurple_E.png" type="Texture" id=199]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBeige_S.png" type="Texture" id=200]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBrown_N.png" type="Texture" id=201]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBrown_E.png" type="Texture" id=202]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBrown_N.png" type="Texture" id=203]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBrown_E.png" type="Texture" id=204]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerGreen_N.png" type="Texture" id=205]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pineLarge_W.png" type="Texture" id=206]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBrown_W.png" type="Texture" id=207]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBeige_N.png" type="Texture" id=208]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/well_N.png" type="Texture" id=209]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pine_S.png" type="Texture" id=210]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBeige_N.png" type="Texture" id=211]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBeige_S.png" type="Texture" id=212]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerPurple_W.png" type="Texture" id=213]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/well_W.png" type="Texture" id=214]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerPurple_N.png" type="Texture" id=215]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerPurple_W.png" type="Texture" id=216]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pine_N.png" type="Texture" id=217]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBeige_W.png" type="Texture" id=218]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerPurple_E.png" type="Texture" id=219]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerPurple_S.png" type="Texture" id=220]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBrown_S.png" type="Texture" id=221]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBeige_E.png" type="Texture" id=222]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBrown_W.png" type="Texture" id=223]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerGreen_S.png" type="Texture" id=224]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerGreen_E.png" type="Texture" id=225]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerPurple_S.png" type="Texture" id=226]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerPurple_N.png" type="Texture" id=227]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pineLarge_N.png" type="Texture" id=228]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pineLarge_S.png" type="Texture" id=229]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/well_E.png" type="Texture" id=230]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/tree_pine_E.png" type="Texture" id=231]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerGreen_W.png" type="Texture" id=232]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerBeige_W.png" type="Texture" id=233]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerInnerGreen_E.png" type="Texture" id=234]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerGreen_W.png" type="Texture" id=235]
+[ext_resource path="res://Isometric/kenney_sketch-town-expansion/Tiles/roof_slantCornerBrown_S.png" type="Texture" id=236]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BalconyStoneE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 17 )
+
+[node name="BalconyStoneN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 14 )
+
+[node name="BalconyStoneS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 29 )
+
+[node name="BalconyStoneW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 16 )
+
+[node name="BalconyWoodE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 12 )
+
+[node name="BalconyWoodN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 32 )
+
+[node name="BalconyWoodS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 25 )
+
+[node name="BalconyWoodW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 18 )
+
+[node name="BuildingStackBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 23 )
+
+[node name="BuildingStackBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 35 )
+
+[node name="BuildingStackBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 19 )
+
+[node name="BuildingStackBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 22 )
+
+[node name="BuildingStackCornerBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 34 )
+
+[node name="BuildingStackCornerBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 20 )
+
+[node name="BuildingStackCornerBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 30 )
+
+[node name="BuildingStackCornerBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 13 )
+
+[node name="BuildingStackCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 31 )
+
+[node name="BuildingStackCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 36 )
+
+[node name="BuildingStackCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 33 )
+
+[node name="BuildingStackCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 26 )
+
+[node name="BuildingStackE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 15 )
+
+[node name="BuildingStackN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 24 )
+
+[node name="BuildingStackS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 37 )
+
+[node name="BuildingStackW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 38 )
+
+[node name="CastleEndRoundE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 27 )
+
+[node name="CastleEndRoundN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 28 )
+
+[node name="CastleEndRoundS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 21 )
+
+[node name="CastleEndRoundW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 47 )
+
+[node name="CastleEndRuinedE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 45 )
+
+[node name="CastleEndRuinedN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 48 )
+
+[node name="CastleEndRuinedS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 39 )
+
+[node name="CastleEndRuinedW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 49 )
+
+[node name="CastleEndE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 51 )
+
+[node name="CastleEndN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 40 )
+
+[node name="CastleEndS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 50 )
+
+[node name="CastleEndW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 44 )
+
+[node name="CastleTowerBeigeBaseE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 41 )
+
+[node name="CastleTowerBeigeBaseN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 42 )
+
+[node name="CastleTowerBeigeBaseS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 43 )
+
+[node name="CastleTowerBeigeBaseW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 46 )
+
+[node name="CastleTowerBeigeTopE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 9 )
+
+[node name="CastleTowerBeigeTopN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 10 )
+
+[node name="CastleTowerBeigeTopS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 4 )
+
+[node name="CastleTowerBeigeTopW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 11 )
+
+[node name="CastleTowerBrownBaseE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 1 )
+
+[node name="CastleTowerBrownBaseN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 5 )
+
+[node name="CastleTowerBrownBaseS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 6 )
+
+[node name="CastleTowerBrownBaseW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 8 )
+
+[node name="CastleTowerBrownTopE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 2 )
+
+[node name="CastleTowerBrownTopN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 7 )
+
+[node name="CastleTowerBrownTopS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 3 )
+
+[node name="CastleTowerBrownTopW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 111 )
+
+[node name="CastleTowerCenterE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 55 )
+
+[node name="CastleTowerCenterN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 102 )
+
+[node name="CastleTowerCenterS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 113 )
+
+[node name="CastleTowerCenterW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 79 )
+
+[node name="CastleTowerGreenBaseE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 59 )
+
+[node name="CastleTowerGreenBaseN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 96 )
+
+[node name="CastleTowerGreenBaseS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 57 )
+
+[node name="CastleTowerGreenBaseW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 98 )
+
+[node name="CastleTowerGreenTopE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 97 )
+
+[node name="CastleTowerGreenTopN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 76 )
+
+[node name="CastleTowerGreenTopS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 99 )
+
+[node name="CastleTowerGreenTopW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 56 )
+
+[node name="CastleTowerPurpleBaseE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 64 )
+
+[node name="CastleTowerPurpleBaseN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 89 )
+
+[node name="CastleTowerPurpleBaseS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 58 )
+
+[node name="CastleTowerPurpleBaseW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 78 )
+
+[node name="CastleTowerPurpleTopE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 103 )
+
+[node name="CastleTowerPurpleTopN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 108 )
+
+[node name="CastleTowerPurpleTopS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 77 )
+
+[node name="CastleTowerPurpleTopW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 67 )
+
+[node name="CliffCornerInnerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 88 )
+
+[node name="CliffCornerInnerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 60 )
+
+[node name="CliffCornerInnerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 69 )
+
+[node name="CliffCornerInnerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 114 )
+
+[node name="CliffCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 66 )
+
+[node name="CliffCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 80 )
+
+[node name="CliffCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 87 )
+
+[node name="CliffCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 92 )
+
+[node name="CliffE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 61 )
+
+[node name="CliffEntranceE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 72 )
+
+[node name="CliffEntranceN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 70 )
+
+[node name="CliffEntranceS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 62 )
+
+[node name="CliffEntranceW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 73 )
+
+[node name="CliffN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 84 )
+
+[node name="CliffS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 63 )
+
+[node name="CliffTopCornerInnerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 65 )
+
+[node name="CliffTopCornerInnerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 68 )
+
+[node name="CliffTopCornerInnerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 81 )
+
+[node name="CliffTopCornerInnerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 90 )
+
+[node name="CliffTopCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 71 )
+
+[node name="CliffTopCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 74 )
+
+[node name="CliffTopCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 100 )
+
+[node name="CliffTopCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 105 )
+
+[node name="CliffTopEntranceE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 106 )
+
+[node name="CliffTopEntranceN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 75 )
+
+[node name="CliffTopEntranceS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 82 )
+
+[node name="CliffTopEntranceW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 115 )
+
+[node name="CliffTopE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 83 )
+
+[node name="CliffTopN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 95 )
+
+[node name="CliffTopS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 52 )
+
+[node name="CliffTopW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 85 )
+
+[node name="CliffW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 86 )
+
+[node name="DirtCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 91 )
+
+[node name="DirtCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 93 )
+
+[node name="DirtCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 94 )
+
+[node name="DirtCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 101 )
+
+[node name="FenceWoodCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 110 )
+
+[node name="FenceWoodCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 104 )
+
+[node name="FenceWoodCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 107 )
+
+[node name="FenceWoodCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 109 )
+
+[node name="FenceWoodCurveE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 112 )
+
+[node name="FenceWoodCurveN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 53 )
+
+[node name="FenceWoodCurveS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 54 )
+
+[node name="FenceWoodCurveW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 158 )
+
+[node name="FenceWoodDoubleCornerE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 154 )
+
+[node name="FenceWoodDoubleCornerN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 179 )
+
+[node name="FenceWoodDoubleCornerS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 126 )
+
+[node name="FenceWoodDoubleCornerW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 130 )
+
+[node name="FenceWoodDoubleCurveE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 145 )
+
+[node name="FenceWoodDoubleCurveN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 174 )
+
+[node name="FenceWoodDoubleCurveS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 155 )
+
+[node name="FenceWoodDoubleCurveW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 156 )
+
+[node name="FenceWoodDoubleEndE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 169 )
+
+[node name="FenceWoodDoubleEndN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 157 )
+
+[node name="FenceWoodDoubleEndS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 163 )
+
+[node name="FenceWoodDoubleEndW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 138 )
+
+[node name="FenceWoodDoubleE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 173 )
+
+[node name="FenceWoodDoubleN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 116 )
+
+[node name="FenceWoodDoubleS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 144 )
+
+[node name="FenceWoodDoubleW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 167 )
+
+[node name="FenceWoodEndE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 168 )
+
+[node name="FenceWoodEndN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 127 )
+
+[node name="FenceWoodEndS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 143 )
+
+[node name="FenceWoodEndW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 159 )
+
+[node name="FenceWoodE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 170 )
+
+[node name="FenceWoodN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 171 )
+
+[node name="FenceWoodS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 123 )
+
+[node name="FenceWoodW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 128 )
+
+[node name="FurrowCropWheatE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 133 )
+
+[node name="FurrowCropWheatN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 164 )
+
+[node name="FurrowCropWheatS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 139 )
+
+[node name="FurrowCropWheatW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 134 )
+
+[node name="FurrowCropE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 129 )
+
+[node name="FurrowCropN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 149 )
+
+[node name="FurrowCropS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 140 )
+
+[node name="FurrowCropW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 119 )
+
+[node name="FurrowE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 176 )
+
+[node name="FurrowEndE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 141 )
+
+[node name="FurrowEndN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 148 )
+
+[node name="FurrowEndS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 166 )
+
+[node name="FurrowEndW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 160 )
+
+[node name="FurrowN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 135 )
+
+[node name="FurrowS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 131 )
+
+[node name="FurrowW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 132 )
+
+[node name="GrassBlockE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 118 )
+
+[node name="GrassBlockN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 146 )
+
+[node name="GrassBlockS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 142 )
+
+[node name="GrassBlockW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 172 )
+
+[node name="RoofGableCornerBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 136 )
+
+[node name="RoofGableCornerBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 177 )
+
+[node name="RoofGableCornerBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 165 )
+
+[node name="RoofGableCornerBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 147 )
+
+[node name="RoofGableCornerBrownE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 120 )
+
+[node name="RoofGableCornerBrownN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 121 )
+
+[node name="RoofGableCornerBrownS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 162 )
+
+[node name="RoofGableCornerBrownW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 178 )
+
+[node name="RoofGableCornerGreenE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 175 )
+
+[node name="RoofGableCornerGreenN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 161 )
+
+[node name="RoofGableCornerGreenS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 122 )
+
+[node name="RoofGableCornerGreenW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 150 )
+
+[node name="RoofGableCornerPurpleE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 117 )
+
+[node name="RoofGableCornerPurpleN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 124 )
+
+[node name="RoofGableCornerPurpleS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 137 )
+
+[node name="RoofGableCornerPurpleW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 151 )
+
+[node name="RoofRoundCornerBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 125 )
+
+[node name="RoofRoundCornerBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 152 )
+
+[node name="RoofRoundCornerBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 153 )
+
+[node name="RoofRoundCornerBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 189 )
+
+[node name="RoofRoundCornerBrownE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 190 )
+
+[node name="RoofRoundCornerBrownN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 192 )
+
+[node name="RoofRoundCornerBrownS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 191 )
+
+[node name="RoofRoundCornerBrownW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 180 )
+
+[node name="RoofRoundCornerGreenE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 183 )
+
+[node name="RoofRoundCornerGreenN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 181 )
+
+[node name="RoofRoundCornerGreenS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 188 )
+
+[node name="RoofRoundCornerGreenW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 182 )
+
+[node name="RoofRoundCornerPurpleE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 184 )
+
+[node name="RoofRoundCornerPurpleN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 187 )
+
+[node name="RoofRoundCornerPurpleS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 185 )
+
+[node name="RoofRoundCornerPurpleW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 186 )
+
+[node name="RoofSlantCornerBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 222 )
+
+[node name="RoofSlantCornerBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 211 )
+
+[node name="RoofSlantCornerBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 212 )
+
+[node name="RoofSlantCornerBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 218 )
+
+[node name="RoofSlantCornerBrownE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 204 )
+
+[node name="RoofSlantCornerBrownN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 201 )
+
+[node name="RoofSlantCornerBrownS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 236 )
+
+[node name="RoofSlantCornerBrownW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 223 )
+
+[node name="RoofSlantCornerGreenE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 225 )
+
+[node name="RoofSlantCornerGreenN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 195 )
+
+[node name="RoofSlantCornerGreenS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 196 )
+
+[node name="RoofSlantCornerGreenW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 235 )
+
+[node name="RoofSlantCornerInnerBeigeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 194 )
+
+[node name="RoofSlantCornerInnerBeigeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 208 )
+
+[node name="RoofSlantCornerInnerBeigeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 200 )
+
+[node name="RoofSlantCornerInnerBeigeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 233 )
+
+[node name="RoofSlantCornerInnerBrownE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 202 )
+
+[node name="RoofSlantCornerInnerBrownN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 203 )
+
+[node name="RoofSlantCornerInnerBrownS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 221 )
+
+[node name="RoofSlantCornerInnerBrownW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 207 )
+
+[node name="RoofSlantCornerInnerGreenE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 234 )
+
+[node name="RoofSlantCornerInnerGreenN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 205 )
+
+[node name="RoofSlantCornerInnerGreenS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 224 )
+
+[node name="RoofSlantCornerInnerGreenW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 232 )
+
+[node name="RoofSlantCornerInnerPurpleE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 199 )
+
+[node name="RoofSlantCornerInnerPurpleN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 215 )
+
+[node name="RoofSlantCornerInnerPurpleS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 226 )
+
+[node name="RoofSlantCornerInnerPurpleW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 213 )
+
+[node name="RoofSlantCornerPurpleE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 219 )
+
+[node name="RoofSlantCornerPurpleN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 227 )
+
+[node name="RoofSlantCornerPurpleS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 220 )
+
+[node name="RoofSlantCornerPurpleW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 216 )
+
+[node name="TreePineLargeE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 193 )
+
+[node name="TreePineLargeN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 228 )
+
+[node name="TreePineLargeS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 229 )
+
+[node name="TreePineLargeW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 206 )
+
+[node name="TreePineE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 231 )
+
+[node name="TreePineN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 217 )
+
+[node name="TreePineS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 210 )
+
+[node name="TreePineW" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 197 )
+
+[node name="WellE" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 230 )
+
+[node name="WellN" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 209 )
+
+[node name="WellS" type="Sprite" parent="."]
+position = Vector2( 626, 357 )
+texture = ExtResource( 198 )
+
+[node name="WellW" type="Sprite" parent="."]
+position = Vector2( 634, 378 )
+texture = ExtResource( 214 )

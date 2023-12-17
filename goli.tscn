@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icicle_0.png" type="Texture" id=1]
+[ext_resource path="res://goli.gd" type="Script" id=2]
+
+[node name="goli" type="RigidBody2D"]
+contacts_reported = 1
+contact_monitor = true
+script = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -10, 5.96046e-08 )
+scale = Vector2( 1.17708, 0.951389 )
+polygon = PoolVector2Array( 18.6903, 1.05109, 11.0442, -1.05109, 11.0442, 3.15328 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 32
+
+[connection signal="body_entered" from="." to="." method="_on_goli_body_entered"]
